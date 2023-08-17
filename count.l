@@ -3,7 +3,7 @@
   int vowel=0,cons=0,whitespace=0
 %}
 
-//Lex program to print the number of vowels, consonants and whitespaces
+//Lex program to print the number of vowels, consonants and whitespaces in a given text
 
 %%
   [aeiouAEIOU] {vowel++;}
